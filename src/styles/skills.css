@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.skillbox {
+
+    width: 100%;
+    height: 100vh;
+
+background-color: #FD49A0;
+    text-align: center;
+    border: 1px solid rgb(248, 240, 240);
+
+
+}
+
+.skillheading {
+    margin-top: 70px;
+    display: inline-block;
+    color: white;
+
+
+    /* width: 10%; */
+    /* margin: 10px auto; */
+    position: relative;
+
+}
+
+.skillbox h1::before {
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 5px;
+    bottom: -7px;
+    background-color: white;
+    position: absolute;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.skillbox h1:hover::before {
+    width: 100%;
+}
+
+.skilllogo {
+    /* border: 1px solid red; */
+    padding: 0;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #EEF0F4;
+    border-radius: 40px;
+    /* background: linear-gradient(145deg, #FFFFFF, #C1C3C6); */
+
+    /* box-shadow: inset 9.91px 9.91px 13px #D9DADE, inset -9.91px -9.91px 13px #FFFFFF; */
+
+
+
+}
+
+/* .html {
+
+   
+} */
+
+/* .css{
+
+}
+.javascript{
+
+}
+.jquery{
+
+}
+.bootstrap{
+
+}
+.react{
+
+}
+.python{
+
+}
+.git{ */
+
+/* } */
+
+.skillcontainer {
+
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+
+}

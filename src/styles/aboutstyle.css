@@ -1,0 +1,70 @@
+.aboutcontainer{
+
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    background-color:#FD49A0;
+  
+    /* height: 100%; */
+    position: absolute;
+   
+}
+/* .aboutcontainer h2{
+   line-height: 100px;
+} */
+.picture{
+    
+    width: 300px;
+    text-align: center;
+    height: 300px;
+    border-radius: 50%;
+    background: url('../images/anil.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.skill1{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.skill2{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    word-wrap: break-word;
+ 
+}
+.aboutheading{
+    position: relative;
+   
+}
+.aboutheadingcontainer{
+   display: inline-block;
+   margin-top: 70px;
+   color: white;
+   
+  
+   
+}
+.aboutheading::before{
+    content: '';
+   width: 100%;
+    height: 3px;
+    background-color:white;
+    position: absolute;
+    top: 37px;
+}
+.skill2 span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color:white;
+    font-size: 30px;
+}
+.skill2 p{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}

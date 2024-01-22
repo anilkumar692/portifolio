@@ -1,0 +1,151 @@
+.home {
+   display: flex;
+   height: calc(100vh - 50px);
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.home1,
+.home2 {
+
+   width: 50%;
+}
+
+.home1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+
+.home2 {
+   background: url('thinkingcoder.jpg');
+   background-size: contain;
+   background-position: center;
+   /* background-origin: border-box; */
+   background-repeat: no-repeat;
+}
+
+.name {
+   color: purple;
+
+}
+
+
+.home1 div {
+   /* border: 1px solid red; */
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Zilla Slab', serif;
+   font-size: 40px;
+}
+
+
+
+
+.buttons {
+   text-align: center;
+   display: flex;
+   margin-top: 10px;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.button-Hire {
+   /* background: #9a42ff; */
+   /* border: 1px solid #FF4742; */
+   /* border-radius: 6px; */
+   /* box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px; */
+   box-sizing: border-box;
+   /* color: #FFFFFF; */
+   color: purple;
+   cursor: pointer;
+   display: inline-block;
+   font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 19px;
+   min-height: 40px;
+   
+   padding: 12px 14px;
+   border: none;
+   text-align: center;
+   text-rendering: geometricprecision;
+   text-transform: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: middle;
+   transition: .5s;
+   border-radius: 16px;
+   background: #e0e0e0;
+   box-shadow: inset 7px 7px 14px #b8b8b8,
+      inset -7px -7px 14px #ffffff;
+
+}
+
+.button-Hire:hover,
+.button-Hire:active {
+   background-color: initial;
+   background-position: 0 0;
+   color: purple;
+   background: white;
+
+   box-shadow: 9px 9px 18px #acacac,
+      -9px -9px 18px #ffffff;
+}
+
+.button-Hire:active {
+   opacity: .5;
+}
+
+.icons {
+   display: flex;
+   gap: 10px;
+   margin-top: 30px;
+}
+
+.iconbox {
+   display: flex;
+   /* border: 1px solid red; */
+   border-radius: 50%;
+   width: 50px;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   object-fit: cover;
+   align-items: center;
+   border-radius: 50%;
+   background: #e0e0e0;
+   box-shadow: inset 7px 7px 14px #b8b8b8,
+      inset -7px -7px 14px #ffffff;
+
+}
+
+.iconbox:hover {
+   border-radius: 50%;
+   background: white;
+
+   box-shadow: 9px 9px 18px #acacac,
+      -9px -9px 18px #ffffff;
+}
+
+.iconstyle {
+   width: 30px;
+   height: 37px;
+
+}
+@media  screen and (max-width:1000px) {
+   .home{
+      display: block;
+   }
+   .home1,.home2{
+      width: 100%;
+      height: 50%;
+   }
+   .button-Hire{
+      font-size: 17px;
+      padding: 7px 9px;
+   }
+}

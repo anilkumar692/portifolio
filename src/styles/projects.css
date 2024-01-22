@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 100%;
+  
+
+}
+.projectcontainer{
+    background-color: #FD49A0;
+    
+}
+
+.projectheading {
+
+
+    text-align: center;
+
+
+
+    /* margin: 0 auto; */
+    font-size: 30px;
+
+    margin: 50px;
+    /* margin-bottom: 30px; */
+}
+
+.project h3 {
+    font-weight: 800;
+    padding: 20px 0px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project .projectdescription {
+    display: block;
+
+}
+
+.projectdescription li {
+    font-size: 1.2em;
+}
+
+.projectnamebox {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+
+
+}
+
+.project {
+    background-color:#A16AE8;
+    color: white;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+
+
+}
+
+.project-detail {
+
+
+
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.project img {
+    width: 200px;
+}
+
+.project-link {
+    margin-bottom: 0px;
+    margin: 10px 0px 50px 50px;
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+
+
+
+}
+
+.project-link button {
+    font-size: 22px;
+    border: 1px solid white;
+
+    background-color:#A16AE8;
+   
+    padding: 12px;
+    font-style: italic;
+    border-radius: 9px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .project-detail {
+        flex-direction: column;
+        color: yellow;
+        justify-content: center;
+        padding: 20px 25px;
+        align-items: center;
+        margin: 20px 30px;
+
+    }
+
+    .project img {
+        width: 100%;
+    }
+}
